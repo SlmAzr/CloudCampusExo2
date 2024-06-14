@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <form class="formulaire" action="" novalidate>
+            <h1>Feedback Form</h1>
+            <div class="form-group">
+                <input type="text" placeholder="Nom" id="nom" minlength="3" maxlength="25" required> 
+                <label for="" class="required required-nom"></label>
+            </div>
+           
+            <div class="form-group">
+                
+                <input type="email" id="email" placeholder="Email" minlength="3" maxlength="25" required>
+                <label for="" class="required required-email"></label>
+            </div>
+            <div class="form-group">
+                <textarea name="" id="message"  placeholder="Message" cols="20" rows="5" required></textarea>
+                <label for="" class="required required-message"></label>
+            </div>
+
+            <div class="form-group">
+               
+                <select id="note" required>
+                    <option value="">note</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label for="" class="required required-note"></label>
+            </div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+   
+</body>
+<script src="script.js"></script>
+</html>
